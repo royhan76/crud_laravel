@@ -4,7 +4,7 @@
 
 <h2>{{ $post["title"]}}</h2>
 <p>By:
-    <a class="text-decoration-none" href="/author/{{$post->user->id}}">{{$post->user->name}}</a>
+    <a class="text-decoration-none" href="/author/{{$post->user->username}}">{{$post->user->name}}</a>
 
     in
 
